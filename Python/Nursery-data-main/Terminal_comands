@@ -1,0 +1,194 @@
+mkdir project_gb
+cd  project_gb
+nano home_pet
+nano pack_animals
+cat home_pet pack_animals > human_friends
+cd ..
+mkdir data_file 
+cd project_gb
+mv human_friends ../data_file/
+
+
+ivan@ivan-virtual-machine:~/project_gb/Nursery-data$ sudo apt update
+    [sudo] password for ivan: 
+    Hit:1 http://ru.archive.ubuntu.com/ubuntu jammy InRelease
+    Get:2 http://ru.archive.ubuntu.com/ubuntu jammy-updates InRelease [119 kB]                                     
+    Hit:3 https://download.docker.com/linux/ubuntu jammy InRelease                                                                                                      
+    Get:4 http://security.ubuntu.com/ubuntu jammy-security InRelease [110 kB]                                                  
+    Hit:5 http://packages.osrfoundation.org/gazebo/ubuntu-stable jammy InRelease                         
+    Get:6 http://ru.archive.ubuntu.com/ubuntu jammy-backports InRelease [108 kB]   
+    Hit:7 http://packages.ros.org/ros2/ubuntu jammy InRelease               
+    Fetched 337 kB in 1s (249 kB/s)
+    Reading package lists... Done
+    Building dependency tree... Done
+    Reading state information... Done
+    2 packages can be upgraded. Run 'apt list --upgradable' to see them.
+    W: Target Packages (stable/binary-amd64/Packages) is configured multiple times in /etc/apt/sources.list.d/archive_uri-https_download_docker_com_linux_ubuntu-jammy.list:1 and /etc/apt/sources.list.d/docker.list:1
+    W: Target Packages (stable/binary-all/Packages) is configured multiple times in /etc/apt/sources.list.d/archive_uri-https_download_docker_com_linux_ubuntu-jammy.list:1 and /etc/apt/sources.list.d/docker.list:1
+    W: Target Translations (stable/i18n/Translation-en_US) is configured multiple times in /etc/apt/sources.list.d/archive_uri-https_download_docker_com_linux_ubuntu-jammy.list:1 and /etc/apt/sources.list.d/docker.list:1
+    W: Target Translations (stable/i18n/Translation-en) is configured multiple times in /etc/apt/sources.list.d/archive_uri-https_download_docker_com_linux_ubuntu-jammy.list:1 and /etc/apt/sources.list.d/docker.list:1
+    W: Target DEP-11 (stable/dep11/Components-amd64.yml) is configured multiple times in /etc/apt/sources.list.d/archive_uri-https_download_docker_com_linux_ubuntu-jammy.list:1 and /etc/apt/sources.list.d/docker.list:1
+    W: Target DEP-11 (stable/dep11/Components-all.yml) is configured multiple times in /etc/apt/sources.list.d/archive_uri-https_download_docker_com_linux_ubuntu-jammy.list:1 and /etc/apt/sources.list.d/docker.list:1
+    W: Target DEP-11-icons-small (stable/dep11/icons-48x48.tar) is configured multiple times in /etc/apt/sources.list.d/archive_uri-https_download_docker_com_linux_ubuntu-jammy.list:1 and /etc/apt/sources.list.d/docker.list:1
+    W: Target DEP-11-icons (stable/dep11/icons-64x64.tar) is configured multiple times in /etc/apt/sources.list.d/archive_uri-https_download_docker_com_linux_ubuntu-jammy.list:1 and /etc/apt/sources.list.d/docker.list:1
+    W: Target DEP-11-icons-hidpi (stable/dep11/icons-64x64@2.tar) is configured multiple times in /etc/apt/sources.list.d/archive_uri-https_download_docker_com_linux_ubuntu-jammy.list:1 and /etc/apt/sources.list.d/docker.list:1
+    W: Target CNF (stable/cnf/Commands-amd64) is configured multiple times in /etc/apt/sources.list.d/archive_uri-https_download_docker_com_linux_ubuntu-jammy.list:1 and /etc/apt/sources.list.d/docker.list:1
+    W: Target CNF (stable/cnf/Commands-all) is configured multiple times in /etc/apt/sources.list.d/archive_uri-https_download_docker_com_linux_ubuntu-jammy.list:1 and /etc/apt/sources.list.d/docker.list:1
+    W: Target Packages (stable/binary-amd64/Packages) is configured multiple times in /etc/apt/sources.list.d/archive_uri-https_download_docker_com_linux_ubuntu-jammy.list:1 and /etc/apt/sources.list.d/docker.list:1
+    W: Target Packages (stable/binary-all/Packages) is configured multiple times in /etc/apt/sources.list.d/archive_uri-https_download_docker_com_linux_ubuntu-jammy.list:1 and /etc/apt/sources.list.d/docker.list:1
+    W: Target Translations (stable/i18n/Translation-en_US) is configured multiple times in /etc/apt/sources.list.d/archive_uri-https_download_docker_com_linux_ubuntu-jammy.list:1 and /etc/apt/sources.list.d/docker.list:1
+    W: Target Translations (stable/i18n/Translation-en) is configured multiple times in /etc/apt/sources.list.d/archive_uri-https_download_docker_com_linux_ubuntu-jammy.list:1 and /etc/apt/sources.list.d/docker.list:1
+    W: Target DEP-11 (stable/dep11/Components-amd64.yml) is configured multiple times in /etc/apt/sources.list.d/archive_uri-https_download_docker_com_linux_ubuntu-jammy.list:1 and /etc/apt/sources.list.d/docker.list:1
+    W: Target DEP-11 (stable/dep11/Components-all.yml) is configured multiple times in /etc/apt/sources.list.d/archive_uri-https_download_docker_com_linux_ubuntu-jammy.list:1 and /etc/apt/sources.list.d/docker.list:1
+    W: Target DEP-11-icons-small (stable/dep11/icons-48x48.tar) is configured multiple times in /etc/apt/sources.list.d/archive_uri-https_download_docker_com_linux_ubuntu-jammy.list:1 and /etc/apt/sources.list.d/docker.list:1
+    W: Target DEP-11-icons (stable/dep11/icons-64x64.tar) is configured multiple times in /etc/apt/sources.list.d/archive_uri-https_download_docker_com_linux_ubuntu-jammy.list:1 and /etc/apt/sources.list.d/docker.list:1
+    W: Target DEP-11-icons-hidpi (stable/dep11/icons-64x64@2.tar) is configured multiple times in /etc/apt/sources.list.d/archive_uri-https_download_docker_com_linux_ubuntu-jammy.list:1 and /etc/apt/sources.list.d/docker.list:1
+    W: Target CNF (stable/cnf/Commands-amd64) is configured multiple times in /etc/apt/sources.list.d/archive_uri-https_download_docker_com_linux_ubuntu-jammy.list:1 and /etc/apt/sources.list.d/docker.list:1
+    W: Target CNF (stable/cnf/Commands-all) is configured multiple times in /etc/apt/sources.list.d/archive_uri-https_download_docker_com_linux_ubuntu-jammy.list:1 and /etc/apt/sources.list.d/docker.list:1
+ivan@ivan-virtual-machine:~/project_gb/Nursery-data$ sudo apt list --upgradable
+    Listing... Done
+    gjs/jammy-updates 1.72.4-0ubuntu0.22.04.1 amd64 [upgradable from: 1.72.2-0ubuntu2]
+    libgjs0g/jammy-updates 1.72.4-0ubuntu0.22.04.1 amd64 [upgradable from: 1.72.2-0ubuntu2]
+ivan@ivan-virtual-machine:~/project_gb/Nursery-data$ sudo apt install mysql-server
+    Reading package lists... Done
+    Building dependency tree... Done
+    Reading state information... Done
+    The following packages were automatically installed and are no longer required:
+      fonts-lato gz-plugin2-cli gz-transport12-cli libcap-dev libdart-collision-bullet-dev libdart-collision-ode-dev libdart-collision-ode6.12 libdart-external-ikfast-dev
+      libdart-utils-dev libdart-utils-urdf-dev libdart-utils-urdf6.12 libev-dev libev4 libgz-cmake3-dev libgz-common5 libgz-common5-av libgz-common5-av-dev
+      libgz-common5-core-dev libgz-common5-dev libgz-common5-events libgz-common5-events-dev libgz-common5-geospatial libgz-common5-geospatial-dev libgz-common5-graphics
+      libgz-common5-graphics-dev libgz-common5-io libgz-common5-io-dev libgz-common5-profiler libgz-common5-profiler-dev libgz-common5-testing libgz-common5-testing-dev
+      libgz-gui7 libgz-math7 libgz-math7-dev libgz-math7-eigen3-dev libgz-msgs9 libgz-msgs9-dev libgz-physics6 libgz-physics6-bullet libgz-physics6-core-dev
+      libgz-physics6-dartsim libgz-physics6-heightmap-dev libgz-physics6-mesh-dev libgz-physics6-tpe libgz-physics6-tpelib libgz-physics6-tpelib-dev libgz-plugin2
+      libgz-plugin2-dev libgz-rendering7 libgz-rendering7-core-dev libgz-rendering7-dev libgz-rendering7-ogre1 libgz-rendering7-ogre1-dev libgz-rendering7-ogre2
+      libgz-rendering7-ogre2-dev libgz-sensors7 libgz-sensors7-air-pressure libgz-sensors7-air-speed libgz-sensors7-altimeter libgz-sensors7-boundingbox-camera
+      libgz-sensors7-camera libgz-sensors7-depth-camera libgz-sensors7-force-torque libgz-sensors7-gpu-lidar libgz-sensors7-imu libgz-sensors7-lidar
+      libgz-sensors7-logical-camera libgz-sensors7-magnetometer libgz-sensors7-navsat libgz-sensors7-rendering libgz-sensors7-rgbd-camera libgz-sensors7-segmentation-camera
+      libgz-sensors7-thermal-camera libgz-sensors7-wide-angle-camera libgz-transport12 libgz-transport12-log libgz-transport12-parameters libgz-utils2 libgz-utils2-cli-dev
+      libgz-utils2-dev libode-dev libogre-next-2.3-dev libogre-next-2.3.0 libqt5charts5 libqt5quickcontrols2-5 libqt5quicktemplates2-5 libruby3.0 libsdformat13 liburdfdom-dev
+      liburdfdom-headers-dev liburdfdom-model-state3.0 liburdfdom-sensor3.0 libuv1-dev libwebsockets-dev libwebsockets16 python3-gz-math7 python3-pybind11
+      qml-module-qt-labs-folderlistmodel qml-module-qt-labs-platform qml-module-qt-labs-settings qml-module-qtcharts qml-module-qtgraphicaleffects qml-module-qtqml
+      qml-module-qtqml-models2 qml-module-qtquick-controls qml-module-qtquick-controls2 qml-module-qtquick-dialogs qml-module-qtquick-layouts qml-module-qtquick-privatewidgets
+      qml-module-qtquick-templates2 qml-module-qtquick-window2 qml-module-qtquick2 qtquickcontrols2-5-dev rake ruby ruby-net-telnet ruby-rubygems ruby-webrick ruby-xmlrpc
+      ruby3.0 rubygems-integration sdformat13-sdf ubuntu-fan
+    Use 'sudo apt autoremove' to remove them.
+    The following NEW packages will be installed:
+      mysql-server
+    0 upgraded, 1 newly installed, 0 to remove and 2 not upgraded.
+    Need to get 9,450 B of archives.
+    After this operation, 35.8 kB of additional disk space will be used.
+    Get:1 http://ru.archive.ubuntu.com/ubuntu jammy-updates/main amd64 mysql-server all 8.0.33-0ubuntu0.22.04.4 [9,450 B]
+    Fetched 9,450 B in 0s (97.1 kB/s)
+    Selecting previously unselected package mysql-server.
+    (Reading database ... 286146 files and directories currently installed.)
+    Preparing to unpack .../mysql-server_8.0.33-0ubuntu0.22.04.4_all.deb ...
+    Unpacking mysql-server (8.0.33-0ubuntu0.22.04.4) ...
+    Setting up mysql-server (8.0.33-0ubuntu0.22.04.4) ...
+ivan@ivan-virtual-machine:~/project_gb/Nursery-data$ sudo mysql_secure_installation
+
+    Securing the MySQL server deployment.
+
+    Connecting to MySQL using a blank password.
+
+    VALIDATE PASSWORD COMPONENT can be used to test passwords
+    and improve security. It checks the strength of password
+    and allows the users to set only those passwords which are
+    secure enough. Would you like to setup VALIDATE PASSWORD component?
+
+    Press y|Y for Yes, any other key for No: y
+
+    There are three levels of password validation policy:
+
+    LOW    Length >= 8
+    MEDIUM Length >= 8, numeric, mixed case, and special characters
+    STRONG Length >= 8, numeric, mixed case, special characters and dictionary                  file
+
+    Please enter 0 = LOW, 1 = MEDIUM and 2 = STRONG: 0
+
+    Skipping password set for root as authentication with auth_socket is used by default.
+    If you would like to use password authentication instead, this can be done with the "ALTER_USER" command.
+    See https://dev.mysql.com/doc/refman/8.0/en/alter-user.html#alter-user-password-management for more information.
+
+    By default, a MySQL installation has an anonymous user,
+    allowing anyone to log into MySQL without having to have
+    a user account created for them. This is intended only for
+    testing, and to make the installation go a bit smoother.
+    You should remove them before moving into a production
+    environment.
+
+    Remove anonymous users? (Press y|Y for Yes, any other key for No) : y       
+    Success.
+
+
+    Normally, root should only be allowed to connect from
+    'localhost'. This ensures that someone cannot guess at
+    the root password from the network.
+
+    Disallow root login remotely? (Press y|Y for Yes, any other key for No) : no
+
+    ... skipping.
+    By default, MySQL comes with a database named 'test' that
+    anyone can access. This is also intended only for testing,
+    and should be removed before moving into a production
+    environment.
+
+
+    Remove test database and access to it? (Press y|Y for Yes, any other key for No) : y
+    - Dropping test database...
+    Success.
+
+    - Removing privileges on test database...
+    Success.
+
+    Reloading the privilege tables will ensure that all changes
+    made so far will take effect immediately.
+
+    Reload privilege tables now? (Press y|Y for Yes, any other key for No) : y
+    Success.
+
+    All done! 
+ivan@ivan-virtual-machine:~/project_gb/Nursery-data$ sudo mysql
+        Welcome to the MySQL monitor.  Commands end with ; or \g.
+        Your MySQL connection id is 10
+        Server version: 8.0.33-0ubuntu0.22.04.4 (Ubuntu)
+
+        Copyright (c) 2000, 2023, Oracle and/or its affiliates.
+
+        Oracle is a registered trademark of Oracle Corporation and/or its
+        affiliates. Other names may be trademarks of their respective
+        owners.
+
+        Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+        mysql> SELECT user,authentication_string,plugin,host FROM mysql.user;
+    +------------------+------------------------------------------------------------------------+-----------------------+-----------+
+    | user             | authentication_string                                                  | plugin                | host      |
+    +------------------+------------------------------------------------------------------------+-----------------------+-----------+
+    | debian-sys-maint | $A$005$Rm-=wn"4|F/I#h2Z.686lQeiVGCYwo4mj34NunQanSfNTi2k0OCGXL47 | caching_sha2_password | localhost |
+    | mysql.infoschema | $A$005$THISISACOMBINATIONOFINVALIDSALTANDPASSWORDTHATMUSTNEVERBRBEUSED | caching_sha2_password | localhost |
+    | mysql.session    | $A$005$THISISACOMBINATIONOFINVALIDSALTANDPASSWORDTHATMUSTNEVERBRBEUSED | caching_sha2_password | localhost |
+    | mysql.sys        | $A$005$THISISACOMBINATIONOFINVALIDSALTANDPASSWORDTHATMUSTNEVERBRBEUSED | caching_sha2_password | localhost |
+    | root             |                                                                        | auth_socket           | localhost |
+    +------------------+------------------------------------------------------------------------+-----------------------+-----------+
+    5 rows in set (0.00 sec)
+    mysql> exit
+    Bye
+
+ivan@ivan-virtual-machine:~/project_gb/Nursery-data/deb$ sudo apt download libfuse2
+    Get:1 http://ru.archive.ubuntu.com/ubuntu jammy/universe amd64 libfuse2 amd64 2.9.9-5ubuntu3 [90.3 kB]
+    Fetched 90.3 kB in 1s (116 kB/s)  
+    W: Download is performed unsandboxed as root as file '/home/ivan/project_gb/Nursery-data/deb/libfuse2_2.9.9-5ubuntu3_amd64.deb' couldn't be accessed by user '_apt'. - pkgAcquire::Run (13: Permission denied)
+ivan@ivan-virtual-machine:~/project_gb/Nursery-data/deb$ ls
+    libfuse2_2.9.9-5ubuntu3_amd64.deb
+ivan@ivan-virtual-machine:~/project_gb/Nursery-data/deb$  sudo dpkg -i libfuse2_2.9.9-5ubuntu3_amd64.deb
+    (Reading database ... 286145 files and directories currently installed.)
+    Preparing to unpack libfuse2_2.9.9-5ubuntu3_amd64.deb ...
+    Unpacking libfuse2:amd64 (2.9.9-5ubuntu3) over (2.9.9-5ubuntu3) ...
+    Setting up libfuse2:amd64 (2.9.9-5ubuntu3) ...
+    Processing triggers for libc-bin (2.35-0ubuntu3.1) ...
+ivan@ivan-virtual-machine:~/project_gb/Nursery-data/deb$ 
+
+ivan@ivan-virtual-machine:~/project_gb/Nursery-data/deb$ dpkg -l | grep grid
+    ri  liboctomap1.9:amd64                               1.9.7+dfsg-3                            amd64        3D occupancy grid mapping approach library for mapping
+ivan@ivan-virtual-machine:~/project_gb/Nursery-data/deb$ sudo dpkg -r  1.9.7+dfsg-3 
+    dpkg: warning: ignoring request to remove 1.9.7+dfsg-3 which isn't installed

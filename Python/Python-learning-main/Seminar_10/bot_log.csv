@@ -1,0 +1,289 @@
+2023-01-29 12:24:20,034: INFO _welcome-362 Bot: felaksera_bot [@felaksera_bot]
+2023-01-29 12:24:20,035: INFO start_polling-358 Start polling.
+2023-01-29 12:24:25,317: ERROR start_polling-390 Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2023-01-29 12:24:35,476: ERROR start_polling-390 Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2023-01-29 12:24:45,617: ERROR start_polling-390 Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2023-01-29 12:24:55,776: ERROR start_polling-390 Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2023-01-29 12:25:05,931: ERROR start_polling-390 Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2023-01-29 12:25:16,078: ERROR start_polling-390 Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2023-01-29 12:25:26,234: ERROR start_polling-390 Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2023-01-29 12:25:36,605: ERROR start_polling-390 Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2023-01-29 12:25:46,763: ERROR start_polling-390 Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2023-01-29 12:25:56,918: ERROR start_polling-390 Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2023-01-29 12:26:07,077: ERROR start_polling-390 Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2023-01-29 12:26:17,229: ERROR start_polling-390 Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2023-01-29 12:26:27,382: ERROR start_polling-390 Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2023-01-29 12:26:37,540: ERROR start_polling-390 Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2023-01-29 12:26:47,708: ERROR start_polling-390 Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2023-01-29 12:26:57,866: ERROR start_polling-390 Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2023-01-29 12:27:08,020: ERROR start_polling-390 Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2023-01-29 12:27:18,177: ERROR start_polling-390 Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2023-01-29 12:27:28,325: ERROR start_polling-390 Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\Anton\PycharmProjects\OpenCVProg\homework10_task1\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2023-01-29 12:27:36,263: INFO stop_polling-433 Stop polling...
+2023-01-29 12:27:36,263: WARNING start_polling-329 Goodbye!
